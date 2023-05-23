@@ -1,4 +1,4 @@
-package algorithm_0523;
+package Algo_0523;
 
 import java.io.*;
 import java.util.*;
@@ -41,7 +41,6 @@ public class SWEA1238_Contact {
 			
 			// 연락 depth가 깊어진 경우
 			if (node.depth > maxDepth) {
-				System.out.println(node.num);
 				maxDepth = node.depth; // depth 갱신
 				maxNum = node.num; // 번호 갱신
 			} else if (node.depth == maxDepth) {

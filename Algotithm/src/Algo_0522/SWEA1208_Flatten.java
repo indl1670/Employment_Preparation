@@ -1,4 +1,4 @@
-package algorithm_0522;
+package Algo_0522;
 
 import java.io.*;
 import java.util.*;
