@@ -3,6 +3,7 @@ package Algo_0524;
 import java.io.*;
 import java.util.*;
 
+// KRUSKAL
 public class SWEA3124_최소스패닝트리 {
     static int T, V, E;
     static Edges[] edge;
